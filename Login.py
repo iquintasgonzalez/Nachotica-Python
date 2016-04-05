@@ -10,7 +10,7 @@ class Login:
             builder2.add_from_file("inicio.glade")
 
             self.nombre = builder2.get_object("nombre")
-            self.contraseña = builder2.get_object("contraseña")
+            self.contrasenaNacho = builder2.get_object("contraseña")
             self.ventanaEntrada = builder2.get_object("inicio")
 
             sinais = {"on_Entrada_clicked": self.on_Entrada_clicked,
@@ -20,11 +20,11 @@ class Login:
             self.ventanaEntrada.set_title("Log in.")
             self.ventanaEntrada.show_all()
 
-    # Método de entrada para poder acceder por usuario y contraseña a la segunda ventana
+    # Metodo de entrada para poder acceder por usuario y contrasena a la segunda ventana
     def on_Entrada_clicked(self, widget):
         nombre = self.nombre.get_text();
-        contraseña = self.contraseña.get_text();
-        if nombre == "admin" and contraseña == "root":
+        contrasenaNacho2 = self.contrasenaNacho.get_text();
+        if nombre == "admin" and contrasenaNacho2 == "root":
             Arquitectura()
             self.ventanaEntrada.destroy()
 
@@ -34,6 +34,7 @@ class Login:
     #este metodo destruye las ventanas
     def cerrar(self, widget):
         widget.destroy()
+
 
     #Metodo para que salga una ventana emergente segun el metodo en el que lo llame
     def popup(self, texto):

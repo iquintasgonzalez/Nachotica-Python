@@ -9,14 +9,14 @@ class Arquitectura:
         #Conexión con la base de datos
         self.bd = dbapi.connect("basedatos.dat")
         self.cursor = self.bd.cursor()
-        #self.cursor.execute("CREATE TABLE Arquitectura (codigo VARCHAR(7) PRIMARY KEY NOT NULL,"
-         #                   "empresa VARCHAR(20),"
-          #                  "gerente VARCHAR(20),"
-           #                 "fecha VARCHAR(50) ,"
-            #                "cliente VARCHAR(10),"
-             #               "cif VARCHAR(10),"
-              #              "telefono INT,"
-               #             "direccion VARCHAR(10))")
+        self.cursor.execute("CREATE TABLE Arquitectura (codigo VARCHAR(7) PRIMARY KEY NOT NULL,"
+                            "empresa VARCHAR(20),"
+                            "gerente VARCHAR(20),"
+                            "fecha VARCHAR(50) ,"
+                            "cliente VARCHAR(10),"
+                            "cif VARCHAR(10),"
+                           "telefono VARCHAR(56),"
+                           "direccion VARCHAR(10))")
 
         #Abrimos y conectamos a la interfaz de Arquitectura
         self.builder = Gtk.Builder()
