@@ -1,0 +1,12 @@
+Arquitecture	Arquitecture-module.html
+Arquitecture.__package__	Arquitecture-module.html#__package__
+Arquitecture.Arquitectura	Arquitecture.Arquitectura-class.html
+Arquitecture.Arquitectura.on_borrar_clicked	Arquitecture.Arquitectura-class.html#on_borrar_clicked
+Arquitecture.Arquitectura.popup	Arquitecture.Arquitectura-class.html#popup
+Arquitecture.Arquitectura.cerrar	Arquitecture.Arquitectura-class.html#cerrar
+Arquitecture.Arquitectura.on_insertar_clicked	Arquitecture.Arquitectura-class.html#on_insertar_clicked
+Arquitecture.Arquitectura.inicializar	Arquitecture.Arquitectura-class.html#inicializar
+Arquitecture.Arquitectura.actualizar	Arquitecture.Arquitectura-class.html#actualizar
+Arquitecture.Arquitectura.on_Modificar_clicked	Arquitecture.Arquitectura-class.html#on_Modificar_clicked
+Arquitecture.Arquitectura.on_consultar_clicked	Arquitecture.Arquitectura-class.html#on_consultar_clicked
+Arquitecture.Arquitectura.__init__	Arquitecture.Arquitectura-class.html#__init__
